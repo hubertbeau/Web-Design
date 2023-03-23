@@ -1,0 +1,149 @@
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 228, 196);
+}
+
+.nav-bar {
+    text-align: right;
+    margin: 0 10%;
+    padding-top: 10px;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar a {
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    height: 30px;
+    color: black;
+    text-decoration: underline;
+    margin-left: 15px;
+    padding: 0 5px;
+}
+
+.nav-bar a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    margin: 0 10%;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 2px solid #708090;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+#colors {
+    scroll-margin-top: 60px;
+}
+
+#fonts {
+    scroll-margin-top: 60px;
+}
+
+#text-styles {
+    scroll-margin-top: 60px;
+}
+
+
+/******************/
+/* colors */
+/******************/
+
+#forestgreen {
+    background-color: rgb(34, 139, 34);
+    color: white;
+}
+
+#lavender {
+    background-color: rgb(230, 230, 250);
+    color: black;
+}
+
+#steelblue {
+    background-color: rgb(70, 130, 180);
+    color: white;
+}
+
+#bisque {
+    background-color: rgb(255, 228, 196);
+    color: black;
+}
+.color-block {
+    display: inline-block;
+    max-width: 600px;
+    min-width: 300px;
+    min-height: 100px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/******************/
+/* fonts */
+/******************/
+
+.font-block {
+    display: inline-block;
+    text-align: left;
+    width: 45%;
+}
+
+.font-title {
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#roboto-condensed {
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+#ubuntu {
+    font-family: 'Ubuntu', 'Times New Roman', Times, sans-serif;
+}
+
+#barlow {
+    font-family: 'Barlow', 'Courier New', Courier, sans-serif, monospace;
+}
+
+/******************/
+/* text styles */
+/******************/
